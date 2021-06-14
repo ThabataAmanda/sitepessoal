@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+/*Font-family: 'Shojumaru', cursive; */
+/*Font-family: 'Dancing Script', cursive; */
+/*Font-family: 'Caveat', cursive; */
+
+body {
+    margin: 0px;
+    Font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 18pt;
+}
+
+#headerBlack{
+    font-family: 'Caveat';
+    font-size: 40pt;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color:#c9b4f4;    
+    height: 70px;
+}
+
+#headerBlue{
+    height: 170px;
+    width: 100%;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(#330053,#c9b4f4);
+}
+
+#headerBlue h1,
+#headerBlue p,
+#headerBlack p {
+    width: 960px;
+    margin: 10px auto;
+}
+
+#headerBlue p {
+    font-family: 'Dancing Script';
+    font-size: 18pt;
+    color: #fbfbfb;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 10px rgb(199, 220, 254);
+}
+
+main{
+    margin: 0px auto;
+    width: 960px;
+}
+
+nav a {
+    display: block;
+    height: 30px;
+    width: 250px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px ;
+    text-decoration: none;
+}
+
+#navegacao {
+    float: left;
+    width: 280px;
+}
+
+#navegacao h3, h2{
+    font-family: 'Caveat';
+    color: #330053;
+}
+
+#content{
+    width: 680px;
+    float: left;
+    margin: 0% auto;
+}
+
+.news{
+    padding-left: 0;
+}
+
+.new li{
+    margin-bottom: 20px;
+    list-style: none;
+    margin-left: 0px;
+    width: 250px;
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    width: 960px;
+    margin: 50px auto;
+    clear: both;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    color: #666;
+}
+
+footer fiv {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+
+  #redes{
+      width: 100%;
+      margin: 30px 0;
+  }
+
+  #redes a{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    transform: rotate(-30deg) skew(10deg);
+}
+
+#redes span{
+    position:  absolute;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #c9b4f4;
+}
+
+#redes a:hover span:nth-child(5){
+    transform: translate(20px, -20px);
+    opacity: 1;
+}
+
+#redes a:hover span:nth-child(4){
+    background-color: #000;
+    transform: translate(15px, -15px);
+    opacity: 0.8;
+}
+
+#redes a:hover span:nth-child(3){
+    background-color: #000;
+    transform: translate(10px, -10px);
+    opacity: 0.6;
+}
+
+#redes a:hover span:nth-child(2){
+    background-color: #000;
+    transform: translate(5px, -5px);
+    opacity: 0.4;
+}
+
+#redes a:hover span:nth-child(1){
+    background-color: #000;
+    transform: translate(0px, 0px);
+    opacity: 0.2;
+}
+
+.fa-facebook{
+    background-color: #3b5999;
+}
+
+.fa-twitter{
+    background-color: #55acee;
+}
+
+.fa-linkedin{
+    background-color: #dd4b39;
+}
+
+.fa-instagram{
+    background-color: #0077b5;
+}
+
+#content figure{
+    float: left;
+    padding: 0px;
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+#content figure img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes move {
+    0%{
+        left: -100px;
+    }
+    100%{
+        left: 0;
+    }   
+}
+
+#content figure:nth-child(1) img:hover{
+    animation: zoom 2s;
+}
+
+#content figure:nth-child(2) img:hover{
+    animation: zoom 2s;
+}
+
+#content figure:nth-child(3) img:hover{
+    animation: zoom 2s;
+}
+
+#content figure:nth-child(4) img:hover{
+    animation: zoom 2s;
+}
